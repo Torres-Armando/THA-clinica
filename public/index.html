@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Vida Sana — Salud que transforma vidas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ HEADER ═══ -->
+  <header class="header" id="inicio">
+    <div class="header__inner">
+      <div class="header__logo">
+        <span class="logo-cross">✚</span>
+        <div class="logo-text">
+          <span class="logo-name">Vida Sana</span>
+          <span class="logo-sub">Clínica Hospital</span>
+        </div>
+      </div>
+      <nav class="nav" id="navMenu">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#nosotros" class="nav__link">Nosotros</a>
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#admin" class="nav__link nav__link--cta">Administrar</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════ HERO ═══ -->
+  <section class="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Fundada en 2005 · Juárez, Chihuahua</span>
+      <h1 class="hero__title">
+        Salud que<br />
+        <em>transforma</em><br />
+        vidas
+      </h1>
+      <p class="hero__desc">
+        Atención médica de excelencia con tecnología de vanguardia.<br />
+        Más de 50 especialistas comprometidos con tu bienestar.
+      </p>
+      <div class="hero__actions">
+        <a href="#servicios" class="btn btn--primary">Ver servicios</a>
+        <a href="tel:+526561234567" class="btn btn--ghost">📞 Llamar ahora</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">+18K</span>
+          <span class="stat__lbl">Pacientes atendidos</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">50+</span>
+          <span class="stat__lbl">Especialistas</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">24/7</span>
+          <span class="stat__lbl">Urgencias</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__image">
+      <div class="hero__card hero__card--1">
+        <span class="hero__card-icon">❤️</span>
+        <p>Cardiología</p>
+        <small>Disponible hoy</small>
+      </div>
+      <div class="hero__card hero__card--2">
+        <span class="hero__card-icon">🧬</span>
+        <p>Laboratorio</p>
+        <small>Resultados mismo día</small>
+      </div>
+      <div class="hero__card hero__card--3">
+        <span class="hero__card-icon">🏆</span>
+        <p>Certificados</p>
+        <small>ISO 9001:2015</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ NOSOTROS ═══ -->
+  <section class="about" id="nosotros">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual">
+          <div class="about__badge">20 años cuidando tu salud</div>
+          <div class="about__blocks">
+            <div class="about__block about__block--blue">
+              <span>Misión</span>
+              <p>Brindar atención médica integral con calidez humana y excelencia clínica.</p>
+            </div>
+            <div class="about__block about__block--teal">
+              <span>Visión</span>
+              <p>Ser el centro de salud de referencia en el norte de México para 2030.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="section-eyebrow">¿Quiénes somos?</span>
+          <h2 class="section-title">Más de dos décadas cuidando a las familias de Juárez</h2>
+          <p>La Clínica Vida Sana nació con una convicción: que toda persona merece acceso a medicina de calidad, con trato digno y tecnología de primer nivel. Hoy somos un hospital de referencia con más de 8 especialidades y más de 18,000 pacientes atendidos.</p>
+          <p>Contamos con el equipo humano y tecnológico para acompañarte desde la prevención hasta la recuperación completa.</p>
+          <div class="about__values">
+            <div class="value">
+              <span class="value__icon">🤝</span>
+              <div>
+                <strong>Compromiso</strong>
+                <p>Con cada paciente y su familia</p>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value__icon">🔬</span>
+              <div>
+                <strong>Innovación</strong>
+                <p>Tecnología médica actualizada</p>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value__icon">🛡️</span>
+              <div>
+                <strong>Seguridad</strong>
+                <p>Protocolos certificados ISO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SERVICIOS (CRUD) ═══ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="services__header">
+        <span class="section-eyebrow">Catálogo de Servicios</span>
+        <h2 class="section-title">Nuestros servicios médicos</h2>
+        <p>Todos los servicios disponibles en nuestra clínica. Aquí puedes consultar el catálogo completo.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filters">
+        <input type="text" id="searchInput" class="filter-input" placeholder="Buscar servicio..." />
+        <select id="categoriaFilter" class="filter-select">
+          <option value="">Todas las categorías</option>
+          <option value="Consulta General">Consulta General</option>
+          <option value="Especialidades">Especialidades</option>
+          <option value="Cirugía">Cirugía</option>
+          <option value="Urgencias">Urgencias</option>
+          <option value="Laboratorio">Laboratorio</option>
+          <option value="Imagen">Imagen</option>
+          <option value="Rehabilitación">Rehabilitación</option>
+          <option value="Odontología">Odontología</option>
+        </select>
+        <button class="btn btn--primary" onclick="filtrarServicios()">Buscar</button>
+      </div>
+
+      <!-- Listado de servicios -->
+      <div class="services__grid" id="serviciosGrid">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Cargando servicios...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ADMIN CRUD ═══ -->
+  <section class="admin" id="admin">
+    <div class="container">
+      <div class="admin__header">
+        <span class="section-eyebrow admin-eyebrow">Panel de Administración</span>
+        <h2 class="section-title">Gestión de servicios</h2>
+        <p>Agrega, edita o elimina servicios del catálogo médico.</p>
+      </div>
+
+      <div class="admin__layout">
+        <!-- Formulario -->
+        <div class="admin__form-wrap">
+          <div class="form-card">
+            <h3 id="formTitle">Agregar nuevo servicio</h3>
+            <div id="formMessage" class="form-message" style="display:none"></div>
+            <input type="hidden" id="servicioId" />
+
+            <div class="form-group">
+              <label>Nombre del servicio *</label>
+              <input type="text" id="fNombre" class="form-input" placeholder="Ej. Consulta General" maxlength="100" />
+            </div>
+            <div class="form-group">
+              <label>Descripción *</label>
+              <textarea id="fDescripcion" class="form-input form-textarea" placeholder="Describe el servicio..." maxlength="500"></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Categoría *</label>
+                <select id="fCategoria" class="form-input">
+                  <option value="">Seleccionar...</option>
+                  <option value="Consulta General">Consulta General</option>
+                  <option value="Especialidades">Especialidades</option>
+                  <option value="Cirugía">Cirugía</option>
+                  <option value="Urgencias">Urgencias</option>
+                  <option value="Laboratorio">Laboratorio</option>
+                  <option value="Imagen">Imagen</option>
+                  <option value="Rehabilitación">Rehabilitación</option>
+                  <option value="Odontología">Odontología</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Precio (MXN) *</label>
+                <input type="number" id="fPrecio" class="form-input" placeholder="350" min="0" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Duración</label>
+                <input type="text" id="fDuracion" class="form-input" placeholder="30 min" />
+              </div>
+              <div class="form-group">
+                <label>Ícono (emoji)</label>
+                <input type="text" id="fIcono" class="form-input" placeholder="🏥" maxlength="4" />
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <label class="check-label">
+                <input type="checkbox" id="fDisponible" checked />
+                <span>Servicio disponible</span>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn--primary" id="btnGuardar" onclick="guardarServicio()">
+                Guardar servicio
+              </button>
+              <button class="btn btn--ghost" id="btnCancelar" onclick="limpiarFormulario()" style="display:none">
+                Cancelar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lista admin -->
+        <div class="admin__list-wrap">
+          <div class="admin-list-header">
+            <h3>Servicios registrados</h3>
+            <span id="adminCount" class="count-badge">0</span>
+          </div>
+          <div id="adminList" class="admin-list">
+            <div class="loading-state">
+              <div class="spinner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="header__logo">
+            <span class="logo-cross logo-cross--white">✚</span>
+            <div class="logo-text">
+              <span class="logo-name logo-name--white">Vida Sana</span>
+              <span class="logo-sub logo-sub--white">Clínica Hospital</span>
+            </div>
+          </div>
+          <p class="footer__tagline">Salud que transforma vidas desde 2005.</p>
+          <p class="footer__author">
+            <strong>Autor:</strong> [Tu Nombre Completo]<br />
+            <strong>Submódulo:</strong> Bases de Datos No Relacionales<br />
+            <strong>Docente:</strong> M.E.E. Leticia Meza Díaz
+          </p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Servicios</h4>
+          <ul>
+            <li>Consulta General</li>
+            <li>Especialidades</li>
+            <li>Urgencias 24/7</li>
+            <li>Laboratorio</li>
+            <li>Imagen y Diagnóstico</li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <ul>
+            <li>📍 Av. Tecnológico 4256, Cd. Juárez, Chih.</li>
+            <li>📞 (656) 123-4567</li>
+            <li>✉️ contacto@vidasana.mx</li>
+            <li>🕐 Lun–Sáb: 7:00 am – 9:00 pm</li>
+            <li>🚨 Urgencias: 24 hrs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Clínica Hospital Vida Sana — Todos los derechos reservados</p>
+        <p class="footer__tech">Desarrollado con Node.js · Express · MongoDB Atlas</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════ MODAL CONFIRM ═══ -->
+  <div class="modal-overlay" id="modalOverlay" style="display:none">
+    <div class="modal">
+      <div class="modal__icon">🗑️</div>
+      <h3>¿Eliminar servicio?</h3>
+      <p id="modalMsg">Esta acción no se puede deshacer.</p>
+      <div class="modal__actions">
+        <button class="btn btn--danger" id="btnConfirmDelete">Sí, eliminar</button>
+        <button class="btn btn--ghost" onclick="cerrarModal()">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
